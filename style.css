@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #1240AB;
+}
+header {
+    background-color: #1240AB;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+main {
+    padding: 2rem;
+}
+.summary p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.info-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.info-block {
+    background-color: #4671D5;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    flex: 1 1 30%;
+}
+.face-recognition {
+    text-align: center;
+    margin-top: 3rem;
+}
+.video-container {
+    position: relative;
+    width: 720px;
+    height: 560px;
+    margin: 0 auto;
+}
+#video {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#start {
+    background-color: #1240AB;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#start:hover {
+    background-color: #4671D5;
+}

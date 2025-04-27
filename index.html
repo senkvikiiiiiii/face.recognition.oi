@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технология распознавания лиц</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Технология распознавания лиц - будущее настало?</h1>
+    </header>
+    <main>
+        <section class="summary">
+            <p>Распознавание лиц - это передовая технология, которая позволяет идентифицировать или верифицировать человека с помощью его лица. Она находит применение в безопасности, маркетинге и даже в медицине.</p>
+        </section>
+        <section class="info-blocks">
+            <div class="info-block">
+                <h2>Как работает технология?</h2>
+                <p>Алгоритмы анализируют уникальные черты лица, такие как расстояние между глазами, форма подбородка и структура носа.</p>
+            </div>
+            <div class="info-block">
+                <h2>Где применяется?</h2>
+                <p>Вход по лицу в смартфоны, системы безопасности на предприятиях, контроль доступа в аэропортах и многое другое.</p>
+            </div>
+            <div class="info-block">
+                <h2>Перспективы развития</h2>
+                <p>В будущем технология может быть интегрирована в повседневную жизнь, упрощая процессы идентификации и повышая безопасность.</p>
+            </div>
+        </section>
+        <section class="face-recognition">
+            <div class="video-container">
+                <video id="video" width="720" height="560" autoplay muted></video>
+            </div>
+            <button id="start">Распознать лицо</button>
+        </section>
+    </main>
+</body>
+</html>
