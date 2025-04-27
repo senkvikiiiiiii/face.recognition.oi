@@ -1,34 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #fff4df;
     margin: 0;
     padding: 0;
-    color: #1240AB;
+    color: 		#394c55;
 }
 header {
-    background-color: #1240AB;
-    color: white;
+    background-color: #16656C;
+    color: #fff4f6;
     text-align: center;
     padding: 2rem 1rem;
 }
 main {
     padding: 2rem;
 }
-.summary p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+.intro {
+    text-align: center;
+    margin: 2rem auto;
+    width: 90%;
 }
 .info-blocks {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
+    margin: 2rem auto;
+    width: 90%;
 }
 .info-block {
-    background-color: #4671D5;
-    color: white;
+    flex: 1 1 250px;
     padding: 1.5rem;
-    border-radius: 1rem;
-    flex: 1 1 30%;
+    border-radius: 15px;
+    background-color: #16656C;
+    color: 		#fff4f6;
+    box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.226);
 }
 .face-recognition {
     text-align: center;
@@ -43,7 +48,13 @@ main {
 #video {
     width: 100%;
     height: auto;
-    border-radius: 1rem;
+    border-radius: 0rem;
+    background-color: #16656C;
+    padding: 0.3rem 0.3rem;
+    margin-top: 0rem;
+    font-size: 0rem;
+    border-radius: 0rem;
+    box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.226);
 }
 canvas {
     position: absolute;
@@ -51,8 +62,8 @@ canvas {
     left: 0;
 }
 #start {
-    background-color: #1240AB;
-    color: white;
+    background-color: #16656C;
+    color: #fff4f6;
     border: none;
     padding: 1rem 2rem;
     margin-top: 1rem;
@@ -61,5 +72,5 @@ canvas {
     cursor: pointer;
 }
 #start:hover {
-    background-color: #4671D5;
+    background-color: #0a2d30;
 }
