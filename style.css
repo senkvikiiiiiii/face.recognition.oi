@@ -3,15 +3,13 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
-    color: 		#000000;
+    color: 		#ffda54;
 }
 header {
     background-color: #ffda54;
     color: #000000;
-    box-shadow: 0 10px 50px hsla(0, 0%, 0%, 0.226);
     text-align: center;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    padding: 2rem 1rem;
 }
 main {
     padding: 2rem;
@@ -35,7 +33,7 @@ main {
     border-radius: 15px;
     background-color: #ffda54;
     color: 		#000000;
-    box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.226);
+    box-shadow: 0 10px 12px hsla(0, 0%, 0%, 0.226);
 }
 .face-recognition {
     text-align: center;
@@ -64,8 +62,8 @@ canvas {
     left: 0;
 }
 #start {
-    background-color: #ffca08;
-    color: #645a00;
+    background-color: #ffa53e;
+    color: #000000;
     border: none;
     padding: 1rem 2rem;
     margin-top: 1rem;
@@ -74,5 +72,5 @@ canvas {
     cursor: pointer;
 }
 #start:hover {
-    background-color: #ffb108;
+    background-color: #0a2d30;
 }
