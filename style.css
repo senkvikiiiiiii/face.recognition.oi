@@ -1,15 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff4df;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
-    color: 		#394c55;
+    color: 		#000000;
 }
 header {
-    background-color: #16656C;
-    color: #fff4f6;
+    background-color: #ffda54;
+    color: #000000;
+    box-shadow: 0 10px 50px hsla(0, 0%, 0%, 0.226);
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
 }
 main {
     padding: 2rem;
@@ -31,8 +33,8 @@ main {
     flex: 1 1 250px;
     padding: 1.5rem;
     border-radius: 15px;
-    background-color: #16656C;
-    color: 		#fff4f6;
+    background-color: #ffda54;
+    color: 		#000000;
     box-shadow: 0 8px 12px hsla(0, 0%, 0%, 0.226);
 }
 .face-recognition {
@@ -49,7 +51,7 @@ main {
     width: 100%;
     height: auto;
     border-radius: 0rem;
-    background-color: #16656C;
+    background-color: #ffda54;
     padding: 0.3rem 0.3rem;
     margin-top: 0rem;
     font-size: 0rem;
@@ -62,8 +64,8 @@ canvas {
     left: 0;
 }
 #start {
-    background-color: #16656C;
-    color: #fff4f6;
+    background-color: #ffca08;
+    color: #645a00;
     border: none;
     padding: 1rem 2rem;
     margin-top: 1rem;
@@ -72,5 +74,5 @@ canvas {
     cursor: pointer;
 }
 #start:hover {
-    background-color: #0a2d30;
+    background-color: #ffb108;
 }
